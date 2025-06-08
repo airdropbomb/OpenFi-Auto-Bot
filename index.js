@@ -26,12 +26,20 @@ const logger = {
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
   userInfo: (msg) => console.log(`${colors.white}[✓] ${msg}${colors.reset}`),
   banner: () => {
-    console.log(`${colors.cyan}${colors.bold}`);
-    console.log(`---------------------------------------------`);
-    console.log(`  OpenFi Auto Bot - Airdrop Insiders  `);
-    console.log(`---------------------------------------------${colors.reset}`);
-    console.log();
-  }
+  console.log(`${colors.cyan}${colors.bold}`);
+  console.log(`
+ █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝
+███████║██║  ██║██████╔╝    ██╔██╗ ██║██║   ██║██║  ██║█████╗
+██╔══██║██║  ██║██╔══██╗    ██║╚██╗██║██║   ██║██║  ██║██╔══╝
+██║  ██║██████╔╝██████╔╝    ██║ ╚████║╚██████╔╝██████╔╝███████╗
+╚═╝  ╚═╝╚═════╝ ╚═════╚═╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝
+  `);
+  console.log(`---------------------------------------------`);
+  console.log(`         OpenFi Auto Bot - ADB NODE          `);
+  console.log(`---------------------------------------------${colors.reset}`);
+  console.log();
+}
 };
 
 const NETWORK_CONFIG = {
