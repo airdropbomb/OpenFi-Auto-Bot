@@ -22,8 +22,7 @@ A sophisticated automation bot for interacting with the OpenFi testnet protocol,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vikitoshi/OpenFi-Auto-Bot.git
-cd OpenFi-Auto-Bot
+git clone https://github.com/airdropbomb/OpenFi-Auto-Bot.git && cd OpenFi-Auto-Bot 
 ```
 
 2. Install dependencies:
