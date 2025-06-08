@@ -1,0 +1,44 @@
+{
+  "name": "openfi-auto-bot",
+  "version": "1.0.0",
+  "description": "Automation bot for interacting with OpenFi testnet protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "openfi",
+    "defi",
+    "automation",
+    "ethereum",
+    "web3",
+    "pharos"
+  ],
+  "author": "vikitoshi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "ethers": "^6.11.1",
+    "https-proxy-agent": "^7.0.4",
+    "http-proxy-agent": "^7.0.2",
+    "socks-proxy-agent": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikitoshi/OpenFi-Auto-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vikitoshi/OpenFi-Auto-Bot/issues"
+  },
+  "homepage": "https://github.com/vikitoshi/OpenFi-Auto-Bot#readme"
+}
